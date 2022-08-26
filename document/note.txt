@@ -1,0 +1,27 @@
+BE: 
+	[x]Bổ sung id_artist, name artist vào song,
+	[x]boor sung sắp xếp theo view, ngày 
+	[] bổ sung count cho các bản ghi khi trả dữ liệu về ổn hơn, dễ làm panigate page
+	[] deploy backend lên server
+	[x] viết document cho các api, update api
+
+FE:
+	[x]home: nút thêm vào playlist cần có 1 modal để hiển thị ra playlist đã có
+		modal có thể scroll, có nút thêm mới playlist
+	[]loading: cần có hiệu ứng loading chung cho trang web
+
+	str = str.replace(/\s+/g, ' '); => loại bỏ khoảng trống thừa
+
+	[x]getallsong => filter, tác giả, update modal sign in
+	[x] update sigin page
+	[] routing and call api songpage, playlistpage
+
+Dashboard: 
+	[] menu không có menu con bỏ icon mũi tên
+	[] chọn ô select 'All', khi bỏ chọn 1 ô bất kỳ thì ô 'All' ko được bỏ chọn
+	[] xóa chưa có confirm
+	[] đồng bộ thành tiếng việt
+	[] edit xong cần redirect quay lại trang cũ
+	[] search tổng chưa chạy, search ở các page chỉ nhận enter => click icon search có thể search
+	[] không có kết quả tìm kiếm cần hiển thị cho user biết
+	[] các btn xóa cần để màu đỏ
